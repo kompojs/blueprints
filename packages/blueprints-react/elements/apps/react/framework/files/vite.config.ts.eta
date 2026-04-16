@@ -1,0 +1,13 @@
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+import { kompoWorkbench } from '@kompojs/workbench/plugin'
+import path from 'path'
+
+export default defineConfig({
+  plugins: [react(), kompoWorkbench()],
+  resolve: {
+    alias: {
+      '@': path.resolve(__dirname, './src'),
+    },
+  },
+})

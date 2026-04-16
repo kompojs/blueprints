@@ -1,0 +1,22 @@
+{
+  "$schema": "https://kompojs.dev/schemas/kompo.blueprint.json",
+  "kompo": "1.0",
+  "name": "@kompojs/blueprints-react",
+  "type": "framework",
+  "frameworks": ["react"],
+  "family": "react",
+  "designSystems": ["shadcn", "tailwind", "antd", "chakra", "mui", "radix", "vanilla"],
+  "starters": [
+    "react.shadcn.blank",
+    "react.tailwind.blank",
+    "react.antd.blank",
+    "react.chakra.blank",
+    "react.mui.blank",
+    "react.radix.blank",
+    "react.vanilla.blank"
+  ],
+  "paths": {
+    "elements": "elements/",
+    "starters": "starters/"
+  }
+}

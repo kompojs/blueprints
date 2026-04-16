@@ -1,0 +1,14 @@
+import { z } from '@kompojs/config'
+import { createEnv } from '@kompojs/config/server'
+
+export { createEnv, z }
+
+export const serverSchema = {
+  <%~ await it.hook('server-schema') %>
+}
+
+export const serverEnv = createEnv({
+  server: serverSchema,
+  client: {},
+  runtimeEnv: (globalThis as any).process?.env ?? {},
+})

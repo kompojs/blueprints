@@ -1,0 +1,12 @@
+{
+  "env": {
+    "DATABASE_URL": {
+      "description": "SQLite database path",
+      "validation": "z.string()",
+      "side": "server",
+      "default": "sqlite.db"
+    }
+  },
+  "id": "bun-sqlite",
+  "name": "bun-sqlite"
+}

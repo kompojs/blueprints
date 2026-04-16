@@ -1,0 +1,17 @@
+{
+  "$schema": "https://kompojs.dev/schemas/kompo.blueprint.json",
+  "kompo": "1.0",
+  "name": "@kompojs/blueprints-vue",
+  "type": "framework",
+  "frameworks": ["vue"],
+  "family": "vue",
+  "designSystems": ["tailwind", "vanilla"],
+  "starters": [
+    "vue.tailwind.blank",
+    "vue.vanilla.blank"
+  ],
+  "paths": {
+    "elements": "elements/",
+    "starters": "starters/"
+  }
+}

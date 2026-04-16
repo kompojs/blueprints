@@ -1,0 +1,24 @@
+{
+  "$schema": "https://kompojs.dev/schemas/kompo.blueprint.json",
+  "kompo": "1.0",
+  "name": "@kompojs/blueprints-nextjs",
+  "type": "framework",
+  "frameworks": ["nextjs"],
+  "family": "react",
+  "designSystems": ["shadcn", "tailwind", "antd", "chakra", "mui", "radix", "vanilla"],
+  "starters": [
+    "nextjs.shadcn.wallet",
+    "nextjs.shadcn.events-listener",
+    "nextjs.shadcn.blank",
+    "nextjs.tailwind.blank",
+    "nextjs.antd.blank",
+    "nextjs.chakra.blank",
+    "nextjs.mui.blank",
+    "nextjs.radix.blank",
+    "nextjs.vanilla.blank"
+  ],
+  "paths": {
+    "elements": "elements/",
+    "starters": "starters/"
+  }
+}

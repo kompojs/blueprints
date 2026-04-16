@@ -1,0 +1,21 @@
+{
+  "name": "@kompojs/blueprints-react",
+  "version": "0.1.1",
+  "description": "Kompo blueprints for React + Vite applications",
+  "license": "MIT",
+  "type": "module",
+  "keywords": ["kompo", "kompo-blueprint", "react", "vite"],
+  "files": [
+    "elements",
+    "starters",
+    "kompo.blueprint.json"
+  ],
+  "peerDependencies": {
+    "@kompojs/blueprints": "workspace:*"
+  },
+  "peerDependenciesMeta": {
+    "@kompojs/blueprints": {
+      "optional": false
+    }
+  }
+}

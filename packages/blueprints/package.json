@@ -1,0 +1,62 @@
+{
+  "name": "@kompojs/blueprints",
+  "version": "0.1.1",
+  "description": "Unified Kompo blueprints",
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./types": {
+      "types": "./dist/types.d.ts",
+      "import": "./dist/types.js"
+    },
+    "./kompo.config.schema.json": "./kompo.config.schema.json",
+    "./blueprint.schema.json": "./blueprint.schema.json",
+    "./kompo.catalog.schema.json": "./kompo.catalog.schema.json"
+  },
+  "files": [
+    "dist",
+    "elements",
+    "features",
+    "starters",
+    "*.schema.json",
+    "kompo.blueprint.json"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "clean": "rimraf .turbo node_modules dist tsconfig.tsbuildinfo",
+    "dev:blueprint": "tsx watch scripts/generate-schemas.ts",
+    "generate-schemas": "tsx scripts/generate-schemas.ts",
+    "test": "vitest run -c ../vitest.config.ts --passWithNoTests",
+    "test:coverage": "vitest run -c ../vitest.config.ts --coverage --passWithNoTests",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "zod": "^3.25.76"
+  },
+  "peerDependencies": {
+    "@kompojs/blueprints-nextjs": "workspace:*",
+    "@kompojs/blueprints-react": "workspace:*",
+    "@kompojs/blueprints-nuxt": "workspace:*",
+    "@kompojs/blueprints-vue": "workspace:*",
+    "@kompojs/blueprints-express": "workspace:*"
+  },
+  "peerDependenciesMeta": {
+    "@kompojs/blueprints-nextjs": { "optional": true },
+    "@kompojs/blueprints-react": { "optional": true },
+    "@kompojs/blueprints-nuxt": { "optional": true },
+    "@kompojs/blueprints-vue": { "optional": true },
+    "@kompojs/blueprints-express": { "optional": true }
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.3.0",
+    "zod-to-json-schema": "^3.25.1"
+  }
+}

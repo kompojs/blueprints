@@ -1,0 +1,22 @@
+{
+  "name": "@<%= it.scope %>/config",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./client": "./src/client.ts",
+    "./server": "./src/server.ts",
+    "./loader": "./src/loader.ts"
+  },
+  "dependencies": {
+    "@kompojs/config": "^0.1.0"
+  },
+    "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "catalog:",
+    "typescript": "catalog:"
+  }
+}

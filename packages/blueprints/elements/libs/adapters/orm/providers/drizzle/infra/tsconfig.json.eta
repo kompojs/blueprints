@@ -1,0 +1,4 @@
+{
+  "extends": "<%= it.tsconfigPath %>",
+  "include": ["src", "drizzle.config.ts"]
+}

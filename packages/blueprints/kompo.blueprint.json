@@ -1,0 +1,37 @@
+{
+  "$schema": "https://kompojs.dev/schemas/kompo.blueprint.json",
+  "kompo": "1.0",
+  "name": "@kompojs/blueprints",
+  "type": "core",
+  "adapters": [
+    "auth",
+    "analytics",
+    "cache",
+    "events",
+    "explorer",
+    "graphql",
+    "http",
+    "jobs",
+    "nosql",
+    "rpc",
+    "storage"
+  ],
+  "drivers": [
+    "http/axios",
+    "http/fetch",
+    "orm/drizzle",
+    "orm/prisma",
+    "rpc/viem"
+  ],
+  "features": [
+    "erc20-token",
+    "erc20-balance",
+    "erc20-allowance",
+    "network-reader"
+  ],
+  "paths": {
+    "elements": "elements/",
+    "features": "features/",
+    "starters": "starters/"
+  }
+}

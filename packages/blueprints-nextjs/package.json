@@ -1,0 +1,21 @@
+{
+  "name": "@kompojs/blueprints-nextjs",
+  "version": "0.1.0",
+  "description": "Kompo blueprints for Next.js applications",
+  "license": "MIT",
+  "type": "module",
+  "keywords": ["kompo", "kompo-blueprint", "nextjs", "react"],
+  "files": [
+    "elements",
+    "starters",
+    "kompo.blueprint.json"
+  ],
+  "peerDependencies": {
+    "@kompojs/blueprints": "workspace:*"
+  },
+  "peerDependenciesMeta": {
+    "@kompojs/blueprints": {
+      "optional": false
+    }
+  }
+}

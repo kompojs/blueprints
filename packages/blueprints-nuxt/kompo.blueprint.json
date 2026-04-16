@@ -1,0 +1,17 @@
+{
+  "$schema": "https://kompojs.dev/schemas/kompo.blueprint.json",
+  "kompo": "1.0",
+  "name": "@kompojs/blueprints-nuxt",
+  "type": "framework",
+  "frameworks": ["nuxt"],
+  "family": "vue",
+  "designSystems": ["tailwind", "vanilla"],
+  "starters": [
+    "nuxt.tailwind.blank",
+    "nuxt.vanilla.blank"
+  ],
+  "paths": {
+    "elements": "elements/",
+    "starters": "starters/"
+  }
+}

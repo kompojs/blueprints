@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "next-themes": "catalog:",
+    "@<%= it.scope %>/ui-<%= it.family %>": "workspace:*",
+    "@<%= it.scope %>/config": "workspace:*"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "catalog:",
+    "tailwindcss": "catalog:"
+  }
+}

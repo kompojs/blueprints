@@ -1,0 +1,20 @@
+{
+  "name": "kompo-blueprints",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Kompo Blueprints - Templates, adapters, drivers, and framework packages",
+  "type": "module",
+  "scripts": {
+    "build": "turbo run build",
+    "clean": "turbo run clean",
+    "test": "turbo run test",
+    "typecheck": "turbo run typecheck"
+  },
+  "devDependencies": {
+    "tsup": "^8.5.1",
+    "tsx": "latest",
+    "turbo": "latest",
+    "typescript": "^5.9.3"
+  },
+  "packageManager": "pnpm@10.28.1"
+}

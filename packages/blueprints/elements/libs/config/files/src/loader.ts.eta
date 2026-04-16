@@ -1,0 +1,1 @@
+export { loadEnv, loadEnvSync } from '@kompojs/config/loader'

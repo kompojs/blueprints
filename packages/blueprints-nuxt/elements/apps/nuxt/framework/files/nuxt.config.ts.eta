@@ -1,0 +1,30 @@
+import { kompoWorkbench } from '@kompojs/workbench/plugin'
+
+export default defineNuxtConfig({
+  srcDir: 'src',
+  compatibilityDate: '2025-05-15',
+  devtools: { enabled: true },
+  modules: [],
+  vite: {
+    plugins: [kompoWorkbench()],
+  },
+  runtimeConfig: {
+    public: {
+      appName: '<%= it.projectName %>',
+      helloWorld: 'It Works!',
+    },
+  },
+  alias: {
+    '@': './src',
+  },
+  dir: {
+    pages: 'src/pages',
+    layouts: 'src/layouts',
+    middleware: 'src/middleware',
+    plugins: 'src/plugins',
+    assets: 'src/assets',
+  },
+  components: [
+    { path: 'src/components' },
+  ],
+})

@@ -1,0 +1,13 @@
+{
+  "$schema": "https://kompojs.dev/schemas/kompo.blueprint.json",
+  "kompo": "1.0",
+  "name": "@kompojs/blueprints-express",
+  "type": "framework",
+  "frameworks": ["express"],
+  "family": "node",
+  "designSystems": [],
+  "starters": [],
+  "paths": {
+    "elements": "elements/"
+  }
+}
