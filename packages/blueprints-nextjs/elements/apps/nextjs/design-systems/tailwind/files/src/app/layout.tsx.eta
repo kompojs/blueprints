@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import '@<%= it.scope %>/ui-<%= it.family %>/styles'
-import { KompoWorkbench } from '@kompojs/workbench/next'
 import { ServerComposition } from '../composition/ServerComposition'
 import { ClientComposition } from '../composition/ClientComposition'
 
@@ -20,7 +19,6 @@ export default function RootLayout({
         <ServerComposition>
           <ClientComposition>{children}</ClientComposition>
         </ServerComposition>
-        <KompoWorkbench />
       </body>
     </html>
   )

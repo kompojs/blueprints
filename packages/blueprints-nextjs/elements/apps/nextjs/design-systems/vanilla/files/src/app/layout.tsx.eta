@@ -1,5 +1,4 @@
 import './globals.css'
-import { KompoWorkbench } from '@kompojs/workbench/next'
 import { ServerComposition } from '../composition/ServerComposition'
 import { ClientComposition } from '../composition/ClientComposition'
 
@@ -25,7 +24,6 @@ export default function RootLayout({
         <ServerComposition>
           <ClientComposition>{children}</ClientComposition>
         </ServerComposition>
-        <KompoWorkbench />
       </body>
     </html>
   )

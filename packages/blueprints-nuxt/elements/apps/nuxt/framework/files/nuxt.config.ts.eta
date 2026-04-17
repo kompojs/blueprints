@@ -1,13 +1,8 @@
-import { kompoWorkbench } from '@kompojs/workbench/plugin'
-
 export default defineNuxtConfig({
   srcDir: 'src',
   compatibilityDate: '2025-05-15',
   devtools: { enabled: true },
   modules: [],
-  vite: {
-    plugins: [kompoWorkbench()],
-  },
   runtimeConfig: {
     public: {
       appName: '<%= it.projectName %>',

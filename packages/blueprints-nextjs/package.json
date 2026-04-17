@@ -1,6 +1,6 @@
 {
   "name": "@kompojs/blueprints-nextjs",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Kompo blueprints for Next.js applications",
   "license": "MIT",
   "type": "module",

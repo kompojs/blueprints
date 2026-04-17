@@ -1,6 +1,6 @@
 {
   "name": "@kompojs/blueprints-react",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Kompo blueprints for React + Vite applications",
   "license": "MIT",
   "type": "module",

@@ -1,6 +1,6 @@
 {
   "name": "@kompojs/blueprints-nuxt",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Kompo blueprints for Nuxt applications",
   "license": "MIT",
   "type": "module",

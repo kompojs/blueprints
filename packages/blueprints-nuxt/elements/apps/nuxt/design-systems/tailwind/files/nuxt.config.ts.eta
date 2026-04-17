@@ -1,5 +1,4 @@
 import tailwindcss from '@tailwindcss/vite'
-import { kompoWorkbench } from '@kompojs/workbench/plugin'
 
 export default defineNuxtConfig({
   srcDir: 'src',
@@ -7,7 +6,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [],
   vite: {
-    plugins: [tailwindcss(), kompoWorkbench()],
+    plugins: [tailwindcss()],
   },
   runtimeConfig: {
     public: {
