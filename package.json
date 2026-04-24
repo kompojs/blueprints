@@ -1,7 +1,6 @@
 {
   "name": "kompo-blueprints",
   "version": "0.1.0",
-  "private": true,
   "description": "Kompo Blueprints - Templates, adapters, drivers, and framework packages",
   "type": "module",
   "scripts": {
