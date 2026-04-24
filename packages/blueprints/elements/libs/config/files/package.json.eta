@@ -10,7 +10,7 @@
     "./loader": "./src/loader.ts"
   },
   "dependencies": {
-    "@kompojs/config": "^0.1.0"
+    "@kompojs/config": "^0.1.1"
   },
     "scripts": {
     "typecheck": "tsc --noEmit"
