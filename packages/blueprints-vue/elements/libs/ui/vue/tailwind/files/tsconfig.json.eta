@@ -6,7 +6,6 @@
     "jsx": "preserve",
     "jsxImportSource": "vue",
     "noEmit": true,
-    "baseUrl": "./src",
     "rootDir": "./src",
     "paths": {
       "@/*": ["./*"]

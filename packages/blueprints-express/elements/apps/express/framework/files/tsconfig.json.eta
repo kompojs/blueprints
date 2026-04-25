@@ -11,7 +11,6 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "declaration": true,
-    "baseUrl": ".",
     "paths": {
       "@<%= it.scope %>/domains/*": ["../../domains/src/*"]
     }

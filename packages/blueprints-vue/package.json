@@ -1,10 +1,15 @@
 {
   "name": "@kompojs/blueprints-vue",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Kompo blueprints for Vue + Vite applications",
   "license": "MIT",
   "type": "module",
-  "keywords": ["kompo", "kompo-blueprint", "vue", "vite"],
+  "keywords": [
+    "kompo",
+    "kompo-blueprint",
+    "vue",
+    "vite"
+  ],
   "files": [
     "elements",
     "starters",

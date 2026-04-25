@@ -1,6 +1,6 @@
 {
   "name": "@kompojs/blueprints",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Unified Kompo blueprints",
   "license": "MIT",
   "type": "module",
@@ -47,11 +47,21 @@
     "@kompojs/blueprints-express": "workspace:*"
   },
   "peerDependenciesMeta": {
-    "@kompojs/blueprints-nextjs": { "optional": true },
-    "@kompojs/blueprints-react": { "optional": true },
-    "@kompojs/blueprints-nuxt": { "optional": true },
-    "@kompojs/blueprints-vue": { "optional": true },
-    "@kompojs/blueprints-express": { "optional": true }
+    "@kompojs/blueprints-nextjs": {
+      "optional": true
+    },
+    "@kompojs/blueprints-react": {
+      "optional": true
+    },
+    "@kompojs/blueprints-nuxt": {
+      "optional": true
+    },
+    "@kompojs/blueprints-vue": {
+      "optional": true
+    },
+    "@kompojs/blueprints-express": {
+      "optional": true
+    }
   },
   "devDependencies": {
     "@types/node": "^20.10.0",

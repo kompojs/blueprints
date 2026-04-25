@@ -7,9 +7,12 @@
     "build": "turbo run build",
     "clean": "turbo run clean",
     "test": "turbo run test",
-    "typecheck": "turbo run typecheck"
+    "typecheck": "turbo run typecheck",
+    "version": "changeset version",
+    "release": "turbo run build && changeset publish"
   },
   "devDependencies": {
+    "@changesets/cli": "^2.31.0",
     "tsup": "^8.5.1",
     "tsx": "latest",
     "turbo": "latest",

@@ -1,10 +1,15 @@
 {
   "name": "@kompojs/blueprints-nuxt",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Kompo blueprints for Nuxt applications",
   "license": "MIT",
   "type": "module",
-  "keywords": ["kompo", "kompo-blueprint", "nuxt", "vue"],
+  "keywords": [
+    "kompo",
+    "kompo-blueprint",
+    "nuxt",
+    "vue"
+  ],
   "files": [
     "elements",
     "starters",
